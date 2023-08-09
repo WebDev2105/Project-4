@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <style type="text/css">
+      .login {
+        border: 1px solid blue;
+        font-size: 30px;
+        border-radius: 10px;
+        width: 800px;
+        margin: auto;
+        box-shadow: 3px 3px 3px 2px black;
+        margin-top: 200px;
+        border-radius: 5px 45px 5px 45px;
+        text-shadow: 2px 2px 5px 1px red;
+      }
+
+      .login input {
+        font-size: 30px;
+      }
+      .login button {
+        font-size: 30px;
+      }
+      .c1 {
+        margin-bottom: 10px;
+        margin-left: 3px;
+        margin-left: 3px;
+        margin-top: 3px;
+        height: 45px;
+      }
+      .c3 {
+        width: 250px;
+        float: left;
+        height: 45px;
+        text-align: right;
+      }
+      .c4 {
+        width: 500px;
+        float: left;
+        height: 45px;
+      }
+      .c2 {
+        width: 500px;
+        margin-left: 250px;
+        margin-bottom: 10px;
+      }
+      .c2:hover {
+        transform: rotate(45deg);
+      }
+      #div1:hover {
+        /*background-color: #0099ff;
+        transform: skew(60deg);
+        transform: scale(0.25);*/
+        transform: translate(30px, 40px);
+        transform-origin: top left;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="login">
+      <form>
+        <div class="c1">
+          <div class="c3">
+            <label for="txtEmail">Email:</label>
+          </div>
+          <div class="c4">
+            <input type="text" id="txtEmail" name="email" />
+          </div>
+        </div>
+        <div class="c1">
+          <div class="c3">
+            <label for="txtpassword">Password:</label>
+          </div>
+          <div class="c4">
+            <input type="password" id="txtpassword" name="password" />
+          </div>
+        </div>
+        <div class="c2">
+          <input type="checkbox" id="chkRememberme" value="yes" />
+          <label for="chkRememberme">Remember Me</label>
+        </div>
+        <div class="c2">
+          <button>Login</button>
+        </div>
+      </form>
+    </div>
+    <br />
+    <div id="div1">One</div>
+  </body>
+</html>

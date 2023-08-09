@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+  </head>
+  <body>
+    <header>Fill the Form</header>
+    <h1>Registration Form</h1>
+    <form>
+      <fieldset>
+        <legend>Fill the following details</legend>
+        Name:
+        <input
+          type="text"
+          placeholder="Full Name"
+          maxlength="50"
+          required="required"
+          pattern="^[a-zA-Z]*$"
+          title="Only Alphabates are allowed"
+          autocomplete="on"
+        />
+        <br />
+        Mobile Number:
+        <input type="text" placeholder="Mobile Number" maxlength="10" /><br />
+        Email Address:
+        <input type="email" placeholder="Email Address" autofocus="autofocus" />
+        <br />
+        Gender:
+        <input type="radio" name="Gender" value="M" />Male
+        <input type="radio" name="Gender" value="F" />Female
+        <input type="radio" name="Gender" value="O" />Others <br />
+        Favourite Course: <br />
+        <input type="checkbox" name="Course" value="C" tabindex="1" />C Language
+        <br />
+        <input type="checkbox" name="Course" value="C++" tabindex="3" />C ++
+        <br />
+        <input type="checkbox" name="Course" value="Dot Net" tabindex="5" />Dot
+        Net <br />
+        <input type="checkbox" name="Course" value="Java" tabindex="6" />Java
+        <br />
+        <input
+          type="checkbox"
+          name="Course"
+          value="Python"
+          tabindex="4"
+        />Python
+        <br />
+        <input
+          type="checkbox"
+          name="Course"
+          value="Oracle"
+          tabindex="2"
+        />Oracle
+        <br />
+        <br />
+        Contribuation :
+        <input
+          type="text"
+          value="1000"
+          readonly="readonly"
+          disabled="disabled"
+        /><br />
+        Upload Resume:
+        <input type="file" />
+        <br />
+        Photo: <input type="image" src="./homepage.jpg" width="100px" /><br />
+        Clear above selected Data click the button
+        <input type="reset" value="Reset" /><br />
+        <input type="submit" value="Submit" /><br />
+        <input type="button" value="OK" /><br />
+        Hidden: <input type="hidden" name="X" value="100" /><br />
+        color: <input type="color" name="M" value="100" /><br />
+        Date:
+        <input
+          type="date"
+          name="dateofbirth"
+          min="1980-01-01"
+          max="2023-07-11"
+        /><br />
+        Time: <input type="time" name="time" /><br />
+        Datetime: <input type="datetime" name="date" /><br />
+        Datetime-local: <input type="datetime-local" name="date" /><br />
+        Month: <input type="month" name="date" /><br />
+        Week: <input type="week" name="date" /><br />
+        Search: <input type="search" name="x" /><br />
+        Number: <input type="number" name="date" min="1" max="50" /><br />
+        Range: <input type="range" name="range" min="0" max="5" /><br />
+        URL: <input type="url" name="x" /><br />
+        ID: <input type="text" id="61093046" /><br />
+        Amount: <input type="number" name="amount" step="10" /><br />
+        file: <input type="file" name="myfiles" multiple="multiple" /><br />
+        <button><img src="./homepage.jpg" width="20px" /><br />OK</button>
+        <input type="checkbox" /> I accept licence agreement
+        <br />
+        <label for="txt1">First Name</label>
+        <input type="text" id="txt1" /><br />
+        <label for="txt2">Last Name</label>
+        <input type="text" id="txt2" /><br />
+        <br />
+        <label for="name">Country</label>
+        <select name="country">
+          <option>Please Select</option>
+          <option selected="selected">India</option>
+          <option>USA</option>
+          <option>UK</option>
+          <option>Japan</option>
+          <option>Singapore</option>
+        </select>
+        <br />
+        <label for="name">Banks</label>
+        <select name="Banks">
+          <optgroup label="Top Banks">
+            <option value="hdfc">HDFC</option>
+            <option value="icici">ICICI</option>
+            <option value="sbi">SBI</option>
+          </optgroup>
+          <optgroup label="Other Banks">
+            <option value="hdfc">Kotak</option>
+            <option value="boi">BOI</option>
+            <option value="union">UNION</option>
+          </optgroup>
+        </select>
+        <br />
+        <div>
+          <label for="name">Banks1</label>
+          <select name="Banks" multiple="multiple">
+            <optgroup label="Top Banks">
+              <option value="hdfc">HDFC</option>
+              <option value="icici">ICICI</option>
+              <option value="sbi">SBI</option>
+            </optgroup>
+            <optgroup label="Other Banks">
+              <option value="hdfc">Kotak</option>
+              <option value="boi">BOI</option>
+              <option value="union">UNION</option>
+            </optgroup>
+          </select>
+        </div>
+        <br />
+        <div>Hello Webpage</div>
+        <span>Hello</span><br />
+        <textarea name="comments"></textarea><br />
+        <h3>HR</h3>
+        one
+        <hr />
+        two
+        <br />
+        <audio controls="controls">
+          <source
+            src="./bestringtones.net_new-hare-krishna-hare-rama-2021.mp3"
+            type="audio/mp3"
+          />
+          <source
+            src="./bestringtones.net_new-hare-krishna-hare-rama-2021.mp3"
+            type="audio/mp3"
+          />
+        </audio>
+        <br />
+        <video controls="controls" width="400px">
+          <source
+            src="./BB_91e276a1-f5de-4229-b0aa-f6d4c25a95d4_FPpreview.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <br />
+        <details>
+          <summary>One Plus 8T</summary>
+          <p>This is a gaming mobile</p>
+        </details>
+        <br />
+
+        Search:
+        <input type="text" list="list1" />
+        <datalist id="list1">
+          <option value="Andhara Pradesh"></option>
+          <option value="Telangana"></option>
+          <option value="Tamil Nadu"></option>
+          <option value="Kerala"></option>
+          <option value="Goa"></option>
+        </datalist>
+        <nav>This is a navigation tag</nav>
+        <section>Thi is a section tag</section>
+        <footer>This is a footer tag</footer>
+        <aside>This is a aside tag</aside>
+      </fieldset>
+    </form>
+  </body>
+</html>

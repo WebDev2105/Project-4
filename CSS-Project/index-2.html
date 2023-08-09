@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hyperlink Styles</title>
+    <style type="text/css">
+      /*unvisited link */
+      a:link {
+        background-color: darkgreen;
+        font-size: 20px;
+        color: white;
+        padding: 2px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      /* mouse over link */
+      a:hover {
+        background-color: yellow;
+        color: darkgreen;
+        text-decoration: underline;
+      }
+      /* selected link*/
+      a:active {
+        background-color: darkred;
+        color: cyan;
+      }
+      /*visited link */
+      a:visited {
+        background-color: black;
+        color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="https://www.google.com">Google</a>
+    <br />
+    <a href="https://www.facebook.com">Facebook</a>
+    <br />
+    <a href="https://www.twitter.com">Twitter</a>
+  </body>
+</html>
